@@ -1,0 +1,25 @@
+{% load static %}
+<html>
+    <head>
+        <title>Memo's blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+        <div class="main-header">
+            
+            <h1>Daily Inspirational Quotes</h1>
+            <h5><small><em>with M.T Tizora</em></small></h5>
+        </div>
+        <div class="content-container">
+            <div class="row">
+                <div class="col-md-8">
+                {% block content %}
+                {% endblock %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

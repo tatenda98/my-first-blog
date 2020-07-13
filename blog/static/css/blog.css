@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(70, 146, 177);
+    color: purple;
+    margin: auto;
+
+}
+
+.main-header {  
+    background-color: skyblue;
+    color: purple;
+    margin-top: 0;
+    padding: 5px 20px 20px 20px;
+    font-family: 'Lobster';
+    font-size: 20pt;
+    }
+
+h2 a {
+    color: purple;
+    text-decoration: none;
+    font-family: 'Lobster';
+    background-color:  rgb(70, 146, 177);
+}
+
+.post {
+    margin-bottom: 60px;
+}
+
+hr{
+    border-bottom: 1px solid black;
+}
+
+.content-container {
+    margin-left: 20px;
+} 
+
+.date {
+    color: blueviolet;
+} 
+
+.edit, .edit a{
+    float: right;
+    background-color: darkblue;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+.edit a:hover{
+    color: red;
+}
+
+.back, .back a{
+    float: right;
+    background-color: maroon;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+.back a:hover{
+    color: red;
+}
+
+.save {
+
+    display: inline-block;
+    background-color: darkblue;
+    border-radius: 5px;
+    color: white;
+} 
+.save:hover{
+    color: red;
+}
+
+.delete{
+    display: inline-block;    
+    background-color: maroon;
+    border-radius: 5px;
+    color: white;
+}
+.delete:hover{
+    color: red;
+}
+
+.leave{
+    display: inline-block;    
+    background-color: turquoise;
+    border-radius: 5px;
+    color: white;
+}
+.leave:hover{
+    color: red;
+}
+
+.post-form textarea, .post-form input {
+    width: 80%;
+}
+
